@@ -1111,3 +1111,38 @@ ul{
     border-radius:10px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
+
+
+
+
+/* ADS section*/
+.ads_section{
+  background:#0c0c1a;
+}
+
+.ads_section .heading_container h2{
+  color:#fff;
+  font-weight:700;
+}
+
+.ads_section .heading_container p{
+  color:#ccc;
+}
+
+.ad_box{
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  transition:all .3s ease;
+}
+
+.ad_box img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.ad_box:hover{
+  transform:translateY(-8px) scale(1.02);
+  box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
